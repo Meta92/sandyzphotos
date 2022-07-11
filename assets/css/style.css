@@ -25,6 +25,28 @@
     background-color: #ffff;
     width: 100%;
     padding: 20px;
+    background-color: rgb(134, 130, 130);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.form::-webkit-scrollbar {
+    user-select: none;
+    width: 10px;
+}
+  
+.form::-webkit-scrollbar-track {
+    background: #fff;
+    user-select: none
+}
+  
+.form::-webkit-scrollbar-thumb {
+    background: #555;
+    user-select: none;
+}
+
+.form::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .info{
@@ -45,7 +67,7 @@
 }
 
 .form-group2{
-    padding: 30px;
+    padding: 0 10px;
 }
 
 .col{
@@ -65,7 +87,7 @@
 .header{
     font-size: 1.9em;
     text-align: center;
-    padding: 30px;
+    padding: 10px 30px;
 }
 
 .icon{
@@ -156,6 +178,10 @@
     opacity: 1;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+}
 
 .ilogo{
     width: 200px;
